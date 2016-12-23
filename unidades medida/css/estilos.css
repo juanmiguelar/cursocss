@@ -1,0 +1,22 @@
+/*
+    Absolutas: medida fija;
+        cm mm in px 
+    Relativas: Flexibles se adaptan;
+        rem em px %
+        em: Valor de su elemento padre(más cercano) en su tamaño fuente
+        rem: Toma el valor del  abuelo
+*/
+
+body{
+    font-size: 12px;
+}
+
+div{
+    background: black;
+    color: white;
+    width: 50%;
+}
+
+p{
+    font-size: 1.5em;
+}
