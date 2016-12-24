@@ -1,0 +1,11 @@
+body{
+    background: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    /* Hace que el fondo no se mueva */
+    background-attachment: fixed;
+    color: white;
+    /* X y Y */
+    background-position: center 0;
+}
+
+/* También se puede aplicar a los divs */
