@@ -1,0 +1,30 @@
+/* MODELO DE CAJA */
+/* Es el encargado de que los elementos se representen como cajas rectangulares con tamaños determinados  */
+/* Ocultar y mostrar las cajas, es esencial */
+
+h1, div, p , a{
+    background: orange;
+}
+
+/*
+    Hay dos tipos de elementos:
+        - Tipo bloque: Aunque haya espacio, se van a poner uno debajo del otro.
+        - Tipo linea: Simplemente abarcan lo que necesitan.
+            * No se les pueden dar ancho ni alto. Solo si se transforman en linea bloque.
+*/
+
+div{
+    /* Es el ancho del bloque */
+    width: 15%;
+    /* Altura, es mejor automatico*/
+    height: 100%;
+    background: green;
+    /* Cuantos margenes tenemos */
+    /* X: arriba ya abajo Y: a los lados */
+    margin: 20px 50px;
+    /* Margenes interiores*/
+    padding: 30px;
+    /* Borde */
+    border: 10px solid black;
+    display: inline-block;
+}
