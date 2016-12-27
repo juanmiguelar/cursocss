@@ -1,0 +1,20 @@
+img{
+    /*Altura*/
+    height: auto;
+    /*Anchura*/
+    /* Importante para diseño responsive hacerlo con porcentajes */
+    width:50%;
+    /* Centra las cosas horizontalmente pero debe ser display-block*/
+    margin: auto;
+    display: block;
+    /* Borde tener un radio 50% es un circulo*/
+    border-radius: 5px;
+    /* box-shadow: 5px 5px 0px #ccc; */
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+div{
+    background: #ccc;
+    width: 100%;
+}
