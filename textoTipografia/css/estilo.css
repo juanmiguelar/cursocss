@@ -1,0 +1,40 @@
+
+h1{
+    font-weight: normal;
+    text-align: center;
+    background: gray;
+}
+
+p{
+    color: #000;
+    /* Indica la tipografía que queremos usar */
+    /* En orden de prioridad de izquierda a derecha */
+    font-family:Arial, Helvetica, sans-serif;
+    /* Cambiar el tamaño de nuestro texto */
+    /* Se pueden usar todas las medidas */
+    font-size: 20px;
+    /* Anchura 
+        palabras clave y números*/
+    font-weight: normal;
+    /* Alinea los textos solo si son caja bloque*/
+    text-align: left;
+    /* Modificar la anchura de la linea, el interlineado */
+    line-height: 30px;
+    /* Decorado al texto 
+        overline
+        line-through
+        underline 
+        none*/
+    text-decoration: none;
+    /* Transformar el texto 
+        capitalize 
+        uppercase
+        lowercase*/
+    text-transform: capitalize;
+    /* Espaciado entre las letras, medidas relativas y absolutas*/
+    letter-spacing: normal;
+    /* Separado entre las palabras */
+    word-spacing: 20px;
+    /* Agregar sombra al texto */
+    text-shadow: 1px 1px 0px #000;
+}
