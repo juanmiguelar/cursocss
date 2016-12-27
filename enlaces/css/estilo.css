@@ -1,0 +1,36 @@
+a{
+    /* Casi todo lo del texto se pueden aplicar a los enlaces */
+    text-decoration: none;
+    /* Los valores van en orden del reloj
+        Arriba, derecha, abajo, izquierda */
+    margin: 10px 10px 10px 10px;
+    background: #3BA7E1;
+    color: #fff;
+    padding: 10px 20px;
+
+}
+
+/* Pseudoclases: son las que nos permiten aplicarle estilos a los enlaces depende del estado en el que se encuentra */
+/* Visitado, no visitado, mouse encima(hover), mouse click */
+
+/* Estado de NO visitados */
+a:link{
+    color: #DF1338;
+}
+
+/* Mouse encima 
+    es la más común*/
+a:hover{
+    text-decoration: underline;
+    background: #000;
+    color: #fff;
+}
+
+a:active{
+    background: #ff8000;
+    text-decoration: line-through;
+}
+
+a:visited{
+    color: #000;
+}
